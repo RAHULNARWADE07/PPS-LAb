@@ -1,0 +1,11 @@
+a = int(input("digit1 (0-9): "))
+b = int(input("digit2 (0-9): "))
+c = int(input("digit3 (0-9): "))
+if(a >9 ):
+	print("Invalid")
+elif(c >9 ):
+	print("Invalid")
+elif(b >9 ):
+	print("Invalid")
+else:
+	print(f"{a}{b}{c}\n{a}{c}{b}\n{b}{a}{c}\n{b}{c}{a}\n{c}{a}{b}\n{c}{b}{a}")
